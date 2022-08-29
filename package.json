@@ -1,0 +1,15 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "Desafio empresa BuildBox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre Silva de Oliveira",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.6.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
