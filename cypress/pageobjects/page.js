@@ -14,7 +14,7 @@ class page {
         cy.contains('.delivery-method li', 'Moto').click()
 
         //Anexar CNH
-        cy.get('input[type=file]').attachFile("CarteiraMotorista.jpg")
+        cy.get('input[type="file"]').selectFile("./cypress/fixtures/CarteiraMotorista.jpg", { force: true })
     }
 }
 

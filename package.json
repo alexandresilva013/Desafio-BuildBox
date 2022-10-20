@@ -4,12 +4,12 @@
   "description": "Desafio empresa BuildBox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
   },
   "author": "Alexandre Silva de Oliveira",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^10.6.0",
-    "cypress-file-upload": "^5.0.8"
+    "cypress": "^10.6.0"
   }
 }
